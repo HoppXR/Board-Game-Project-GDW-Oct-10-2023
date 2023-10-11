@@ -380,7 +380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 340, y: -143.01}
+  m_AnchoredPosition: {x: 340, y: -193.3}
   m_SizeDelta: {x: 80, y: 23.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &182598794
@@ -734,12 +734,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 0ba28498e1073014ead921af434df7ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.9866667, y: 3.1266668}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -805,6 +805,20 @@ MonoBehaviour:
   - {fileID: 925646363}
   - {fileID: 456600285}
   - {fileID: 2019374842}
+  - {fileID: 274367609}
+  - {fileID: 2121729002}
+  - {fileID: 1823086874}
+  - {fileID: 588352936}
+  - {fileID: 354380693}
+  - {fileID: 1666064430}
+  - {fileID: 1179727017}
+  - {fileID: 1733962845}
+  - {fileID: 1705144481}
+  - {fileID: 1791622778}
+  - {fileID: 2082186802}
+  - {fileID: 1269381731}
+  - {fileID: 1906302824}
+  - {fileID: 264008515}
   moveSpeed: 3
   waypointIndex: 0
   moveAllowed: 0
@@ -1145,12 +1159,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 0ba28498e1073014ead921af434df7ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
   m_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.6466668, y: 3.26}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1216,6 +1230,22 @@ MonoBehaviour:
   - {fileID: 925646363}
   - {fileID: 456600285}
   - {fileID: 2019374842}
+  - {fileID: 274367609}
+  - {fileID: 2121729002}
+  - {fileID: 1823086874}
+  - {fileID: 588352936}
+  - {fileID: 354380693}
+  - {fileID: 1666064430}
+  - {fileID: 1179727017}
+  - {fileID: 1733962845}
+  - {fileID: 1705144481}
+  - {fileID: 1791622778}
+  - {fileID: 2082186802}
+  - {fileID: 1269381731}
+  - {fileID: 1906302824}
+  - {fileID: 264008515}
+  - {fileID: 1044086621}
+  - {fileID: 1044086621}
   moveSpeed: 3
   waypointIndex: 0
   moveAllowed: 0
@@ -1315,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -35, y: 20}
+  m_AnchoredPosition: {x: -35, y: 42.4}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &627970383
@@ -1338,7 +1368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0ba28498e1073014ead921af434df7ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1431,6 +1461,7 @@ Transform:
   - {fileID: 1269381731}
   - {fileID: 1906302824}
   - {fileID: 264008515}
+  - {fileID: 1044086621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &678643513
@@ -1596,7 +1627,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0ba28498e1073014ead921af434df7ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1733,6 +1764,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.63, y: -5.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 675316066}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1044086620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044086621}
+  m_Layer: 0
+  m_Name: Waypoint (46)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044086621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044086620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.4, y: 6.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2297,7 +2359,7 @@ GameObject:
   - component: {fileID: 1626740611}
   - component: {fileID: 1626740610}
   - component: {fileID: 1626740609}
-  - component: {fileID: 1626740608}
+  - component: {fileID: 1626740612}
   m_Layer: 0
   m_Name: Dice
   m_TagString: Untagged
@@ -2305,18 +2367,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1626740608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626740607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1626740609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2429,6 +2479,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1626740612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626740607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1666064429
 GameObject:
   m_ObjectHideFlags: 0

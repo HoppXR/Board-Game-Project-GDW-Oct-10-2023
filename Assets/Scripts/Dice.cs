@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Dice : MonoBehaviour {
+public class Dice : MonoBehaviour
+{
 
     private Sprite[] diceSides;
     private SpriteRenderer rend;
     private int whosTurn = 1;
     private bool coroutineAllowed = true;
 
-	// Use this for initialization
-	private void Start () {
+    // Use this for initialization
+    private void Start()
+    {
         rend = GetComponent<SpriteRenderer>();
         diceSides = Resources.LoadAll<Sprite>("DiceSides/");
         rend.sprite = diceSides[5];
-	}
+    }
 
     private void OnMouseDown()
     {
@@ -36,7 +38,8 @@ public class Dice : MonoBehaviour {
         if (whosTurn == 1)
         {
             GameControl.MovePlayer(1);
-        } else if (whosTurn == -1)
+        }
+        else if (whosTurn == -1)
         {
             GameControl.MovePlayer(2);
         }
