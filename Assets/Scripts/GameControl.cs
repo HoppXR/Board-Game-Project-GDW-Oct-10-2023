@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class GameControl : MonoBehaviour {
+public class GameControl : MonoBehaviour
+{
 
     private static GameObject whoWinsTextShadow, player1MoveText, player2MoveText;
 
@@ -14,7 +15,8 @@ public class GameControl : MonoBehaviour {
     public static bool gameOver = false;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         whoWinsTextShadow = GameObject.Find("WhoWinsText");
         player1MoveText = GameObject.Find("Player1MoveText");
@@ -34,7 +36,7 @@ public class GameControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (player1.GetComponent<FollowThePath>().waypointIndex > 
+        if (player1.GetComponent<FollowThePath>().waypointIndex >
             player1StartWaypoint + diceSideThrown)
         {
             player1.GetComponent<FollowThePath>().moveAllowed = false;
@@ -52,7 +54,7 @@ public class GameControl : MonoBehaviour {
             player2StartWaypoint = player2.GetComponent<FollowThePath>().waypointIndex - 1;
         }
 
-        if (player1.GetComponent<FollowThePath>().waypointIndex == 
+        if (player1.GetComponent<FollowThePath>().waypointIndex ==
             player1.GetComponent<FollowThePath>().waypoints.Length)
         {
             whoWinsTextShadow.gameObject.SetActive(true);
@@ -73,7 +75,8 @@ public class GameControl : MonoBehaviour {
 
     public static void MovePlayer(int playerToMove)
     {
-        switch (playerToMove) { 
+        switch (playerToMove)
+        {
             case 1:
                 player1.GetComponent<FollowThePath>().moveAllowed = true;
                 break;
