@@ -17,12 +17,12 @@ public class WeaponCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        weaponText.text = "WEAPONS: " + currentWeapons.ToString();
+        weaponText.text = "WEAPONS:" + currentWeapons.ToString();
     }
 
     public void IncreaseWeapons(int v)
     {
         currentWeapons += v;
-        weaponText.text = "WEAPONS: " + currentWeapons.ToString();
+        weaponText.text = "WEAPONS:" + currentWeapons.ToString();
     }
 }
