@@ -1059,8 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e693fdedc0589ac4b96fcf7fba5e184d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponText: {fileID: 0}
-  currentWeapons: 0
+  weaponText: {fileID: 711423763}
 --- !u!1 &402922198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,7 +1291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponText: {fileID: 711423763}
-  currentWeapons: 0
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1306,7 +1304,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponText: {fileID: 138989741}
-  currentWeapons: 0
 --- !u!1 &551765886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,8 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e693fdedc0589ac4b96fcf7fba5e184d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponText: {fileID: 0}
-  currentWeapons: 0
+  weaponText: {fileID: 138989741}
 --- !u!1 &588352935
 GameObject:
   m_ObjectHideFlags: 0
