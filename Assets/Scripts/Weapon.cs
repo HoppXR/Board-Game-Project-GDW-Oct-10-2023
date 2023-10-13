@@ -26,6 +26,11 @@ public class Weapon : MonoBehaviour
             Destroy(gameObject);
             WeaponCounter.instance.IncreaseWeapons(value);
         }
+        else if (other.gameObject.CompareTag("Player2"))
+        {
+             Destroy(gameObject);
+             WeaponCounter.instance.IncreaseWeapons2(value);
+        }
     }
 
 }

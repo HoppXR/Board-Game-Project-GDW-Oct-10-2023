@@ -6,3 +6,8 @@ public interface IInventory
 {
     int Weapon { get; set; }
 }
+
+public interface IInventory2
+{
+    int Weapon2 { get; set; }
+}

@@ -9,3 +9,11 @@ public class PlayerInventory : MonoBehaviour, IInventory
 
     public int weapon = 0;
 }
+
+public class PlayerInventory2 : MonoBehaviour, IInventory2
+{
+    public int Weapon2 { get => weapon2; set => weapon2 = value; }
+
+
+    public int weapon2 = 0;
+}
