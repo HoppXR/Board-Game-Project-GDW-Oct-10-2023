@@ -7,6 +7,10 @@ TagManager:
   - Weapon
   - Player1
   - Player2
+  - Left
+  - Right
+  - Up
+  - Down
   layers:
   - Default
   - TransparentFX
