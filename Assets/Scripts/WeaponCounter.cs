@@ -20,19 +20,19 @@ public class WeaponCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        weaponText.text = "WEAPONS:" + currentWeapons.ToString();
-        weaponText2.text = "WEAPONS:" + currentWeapons2.ToString();
+        weaponText.text = "SCORE:" + currentWeapons.ToString();
+        weaponText2.text = "SCORE:" + currentWeapons2.ToString();
     }
 
     public void IncreaseWeapons(int v)
     {
         currentWeapons += v;
-        weaponText.text = "WEAPONS:" + currentWeapons.ToString();
+        weaponText.text = "SCORE:" + currentWeapons.ToString();
     }
 
     public void IncreaseWeapons2(int v)
     {
         currentWeapons2 += v;
-        weaponText2.text = "WEAPONS:" + currentWeapons2.ToString();
+        weaponText2.text = "SCORE:" + currentWeapons2.ToString();
     }
 }
