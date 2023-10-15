@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spU: {fileID: 21300000, guid: dbc70538203969b4ca3f9e83c99a78da, type: 3}
-  spD: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
+  spD: {fileID: 21300000, guid: 5d00ec233546acd4f96f1eb8ff60cd4e, type: 3}
   spL: {fileID: 21300000, guid: bee2b8ed80643374db7042367ac08821, type: 3}
   spR: {fileID: 21300000, guid: 4c30aa0174f08db46b7ec8af1828cd9f, type: 3}
 --- !u!1 &398600961
@@ -4414,7 +4414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ddf02c1abc18bef43858d8cdc792b8a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d00ec233546acd4f96f1eb8ff60cd4e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
